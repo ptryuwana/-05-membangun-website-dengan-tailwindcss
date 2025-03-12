@@ -11,7 +11,7 @@ export const metadata: Metadata = {
 
 export default function Home() {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gradient-to-b from-white to-blue-800 p-8 mt-5 dark:from-black">
+    <div className="min-h-screen flex items-center justify-center bg-gradient-to-b from-white to-blue-800 p-8  dark:from-black">
       <div className="relative bg-white/50 dark:bg-gray-800/50  backdrop-blur-lg shadow-lg rounded-3xl p-8 max-w-2xl text-center dark:text-white/65 text-gray-700">
         <div className="w-32 h-32 mx-auto rounded-full overflow-hidden border-4 border-white shadow-lg">
           <img

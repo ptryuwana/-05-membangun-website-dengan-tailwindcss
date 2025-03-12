@@ -53,7 +53,7 @@ function ProjectItem({name, url, urlDisplay, imageSrc}: ProjectItemProps){
 
 export default function Projects(){
   return(
-    <div className="min-h-screen px-8 bg-gradient-to-b from-white to-blue-800 p-8 mt-5 dark:from-black">
+    <div className="min-h-screen px-8 pt-16 bg-white dark:bg-black bg-gradient-to-b from-white to-blue-800 p-8 dark:from-black">
       <header>
         <h1 className="font-bold text-4xl text-zinc-800 dark:text-white">Proyek Saya</h1>
         <p className="text-base mt-6 text-zinc-600 dark:text-white">Berikut adalah beberapa proyek yang telah saya kerjakan.</p>

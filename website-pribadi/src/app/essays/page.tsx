@@ -21,7 +21,7 @@ export const metadata: Metadata = {
 
 export default function Esai() {
   return (
-    <div className="min-h-screen mt-16 px-8 bg-gradient-to-b from-white to-blue-800 dark:from-black ">
+    <div className="min-h-screen px-8 pt-16 bg-gradient-to-b from-white to-blue-800 dark:from-black ">
       <header>
         <h1 className="font-bold text-4xl text-zinc-800 dark:text-white">Esai Saya</h1>
         <p className="text-base mt-6 text-zinc-600 dark:text-white">
