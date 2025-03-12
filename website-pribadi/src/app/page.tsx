@@ -24,7 +24,7 @@ export default function Home() {
         <h1 className="text-3xl font-bold mt-4">Putra Nindya Yuwana</h1>
         <p className="mt-2">Back End Dev | Data Engineer Enthusiast</p>
         <p className="mt-4 leading-relaxed">
-          Saya seorang mahasiswa Teknik Informatika yang memiliki ketertarikan dalam pengembangan perangkat lunak, data, dan teknologi web.
+          Saya adalah mahasiswa Teknik Informatika yang memiliki ketertarikan dalam pengembangan perangkat lunak, data, dan teknologi web.
         </p>
 
         <div className="flex justify-center space-x-4 mt-6">

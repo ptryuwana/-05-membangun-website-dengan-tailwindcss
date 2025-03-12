@@ -1,8 +1,8 @@
 import { Metadata } from "next";
 import Image, { StaticImageData } from "next/image";
 import image1 from '../../../public/images/project1.png';
-import image2 from '../../../public/images/project2l.png';
-import image3 from '../../../public/images/project3.png';
+import image2 from '../../../public/images/project2l.jpg';
+import image3 from '../../../public/images/project3.jpg';
 // import { url } from "inspector";
 
 export const metadata: Metadata = {
@@ -53,7 +53,7 @@ function ProjectItem({name, url, urlDisplay, imageSrc}: ProjectItemProps){
 
 export default function Projects(){
   return(
-    <div className="min-h-screen px-8 pt-16 bg-white dark:bg-black bg-gradient-to-b from-white to-blue-800 p-8 dark:from-black">
+    <div className="min-h-screen px-8 pt-16  bg-white dark:bg-black bg-gradient-to-b from-white to-blue-800 p-8 dark:from-black">
       <header>
         <h1 className="font-bold text-4xl text-zinc-800 dark:text-white">Proyek Saya</h1>
         <p className="text-base mt-6 text-zinc-600 dark:text-white">Berikut adalah beberapa proyek yang telah saya kerjakan.</p>
